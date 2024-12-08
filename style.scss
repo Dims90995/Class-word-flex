@@ -1,0 +1,36 @@
+body{
+    background-color: grey
+}
+
+.box1 {
+border: 5px solid black;
+}
+
+.box2 {
+border: 5px solid black;
+}
+
+.left {
+    display: flex;
+align-items: flex-start;
+flex-direction: column;
+}
+ 
+.right {
+    display: flex;
+align-items: flex-end;
+flex-direction: column;
+}
+
+main {
+    
+}
+
+article {
+    display: flex;
+    border: 5px solid black;
+    justify-content: center;
+    align-content: space-between;
+
+
+}
